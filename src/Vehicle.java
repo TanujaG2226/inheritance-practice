@@ -30,5 +30,9 @@ public class Vehicle {
 	public int getMiles() {
 		return miles;
 	}
-
+	public String getInfo() {
+		return "This vehicle is a car named "  +". It was made in "+ year;
+	}
 }
+
+
